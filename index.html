@@ -40,6 +40,14 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                     <p>{{ site.footer.github }}</p>
                 </section>
+                <section>
+                {% if site.email %}
+                <p>
+                	Email me at
+                	<a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+                </p>
+                {% endif %}
+                </section>
                 {% if site.social_urls.github or site.social_urls.twitter or site.social_urls.instagram or site.social_urls.linkedin %}
                 <section>
                     <h2>Follow me on ...</h2>
