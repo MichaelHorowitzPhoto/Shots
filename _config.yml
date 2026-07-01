@@ -9,8 +9,9 @@ author:  "Michael Horowitz"
 header:
  title: "Photography"
  subtitle: "by Michael Horowitz"
-#footer:
+footer:
 # name: "Hello World! 👋'"
+ bio: "This is my website to show my wildlife photography. I'm interested in primates and squirrels in particular, but I love all animals."
 # bio: "I’m a software developer who writes. And 3D print. And photograph. Basically, following my curiosity and trying to find my purpose on this beautiful big blue ball. Learn more at: https://swiftlysingh.com"
 #social_urls:
 #  instagram: "https://www.instagram.com/pushpinderpalsingh_/"
