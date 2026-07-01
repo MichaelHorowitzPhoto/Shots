@@ -40,6 +40,7 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                     <p>{{ site.footer.github }}</p>
                 </section>
+                {% if site.social_urls.github or site.social_urls.twitter or site.social_urls.instagram or site.social_urls.linkedin %}
                 <section>
                     <h2>Follow me on ...</h2>
                     <ul class="icons">
@@ -73,10 +74,12 @@ layout: default
                         {% endif %}
                     </ul>
                 </section>
+                {% endif %}
                 <p class="copyright">
                     &copy; {{ site.author }}
                 </p>
             </div>
         </div>
     </footer>
+
 </div>
